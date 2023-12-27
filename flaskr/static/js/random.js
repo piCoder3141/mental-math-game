@@ -1,5 +1,5 @@
-function getRandomNumber(){
-    return Math.floor(Math.random() * 50) + 1
+function getRandomNumber(limit){
+    return Math.floor(Math.random() * Number(limit)) + 1
 }
 
 function getRandomOperator(){
