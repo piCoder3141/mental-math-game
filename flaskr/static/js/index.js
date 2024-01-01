@@ -17,6 +17,9 @@ function resetGame(){
 function startTimer(){
     resetGame()
     isTimerOn = true
+
+    let userInput = document.getElementById("userInput")
+    userInput.focus()
 }
 
 function resetTimer(){
