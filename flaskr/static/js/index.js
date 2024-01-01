@@ -15,6 +15,7 @@ function resetGame(){
 }
 
 function startTimer(){
+    resetGame()
     isTimerOn = true
 }
 
